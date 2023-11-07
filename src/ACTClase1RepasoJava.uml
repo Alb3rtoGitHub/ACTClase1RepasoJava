@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/Admin/Documents/IdeaProjects/ACTClase1RepasoJava</OriginalElement>
+  <nodes>
+    <node x="-5491.888570801057" y="66.12030015198201">validadorCorrelativas.Alumno</node>
+    <node x="-5805.147964195649" y="-258.35502838054185">validadorCorrelativas.Materia</node>
+    <node x="-5737.432236401009" y="385.4151215651547">Main</node>
+    <node x="-6091.699014937177" y="88.120300151982">validadorCorrelativas.Inscripcion</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="validadorCorrelativas.Inscripcion" target="validadorCorrelativas.Materia" relationship="TO_ONE">
+      <point x="0.0" y="-138.0" />
+      <point x="-5988.199014937177" y="-135.35502838054185" />
+      <point x="-117.0" y="-15.0" />
+    </edge>
+    <edge source="validadorCorrelativas.Inscripcion" target="validadorCorrelativas.Alumno" relationship="TO_ONE">
+      <point x="103.5" y="0.0" />
+      <point x="-139.0" y="0.0" />
+    </edge>
+    <edge source="Main" target="validadorCorrelativas.Alumno" relationship="CREATE">
+      <point x="74.5" y="0.0" />
+      <point x="-5352.888570801057" y="423.9151215651547" />
+      <point x="0.0" y="160.0" />
+    </edge>
+    <edge source="validadorCorrelativas.Alumno" target="validadorCorrelativas.Materia" relationship="TO_MANY">
+      <point x="0.0" y="-160.0" />
+      <point x="-5352.888570801057" y="-120.35502838054185" />
+      <point x="117.0" y="0.0" />
+    </edge>
+    <edge source="Main" target="validadorCorrelativas.Inscripcion" relationship="CREATE">
+      <point x="-74.5" y="0.0" />
+      <point x="-5988.199014937177" y="423.9151215651547" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="Main" target="validadorCorrelativas.Materia" relationship="CREATE">
+      <point x="0.0" y="-38.5" />
+      <point x="-5662.932236401009" y="-120.35502838054185" />
+      <point x="-117.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8701095461658842" showDependencies="true" x="-5589.0" y="72.24640287769785" />
+  <SelectedNodes>
+    <node>validadorCorrelativas.Alumno</node>
+    <node>validadorCorrelativas.Inscripcion</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
